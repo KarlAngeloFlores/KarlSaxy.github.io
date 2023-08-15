@@ -1,0 +1,411 @@
+* {
+    font-family: Poppins;
+}
+
+body {
+    background-color:#080808;
+    font-family: poppins, sans-serif;
+    font-style: normal; 
+    color: #fff;
+    margin-top: 0px;
+    scroll-behavior: smooth;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.header-KarlSaxy {
+    height: 100px;
+    width: 100%;
+    position:fixed;
+    margin-top: -20px;
+}
+
+.logo-design {
+    color: #E8AA42;
+    font-size: 24px;
+    left: 0;
+    padding-left: 50px;
+}
+
+ul {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(8, 8, 8, 0.43);
+    align-items: center;
+}
+
+.navigation {
+    display:inline-flex;
+    gap: 70px;
+    padding-right: 140px;
+}
+
+li {
+    list-style: none;
+    font-size: 21px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    color: #E8AA42;
+}
+
+.hero-section {
+    background-color: #080808;
+    width: 100%;
+    height: 900px;
+    background-image: url(/images/hero-section.png);
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-content {
+    padding-left: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.name-title, .about-title {
+    font-size: 70px;
+    font-weight: 1000;
+}
+
+.hero-paragraph {
+    width: 500px auto;
+    font-family: Lora; 
+    color: rgba(248, 241, 241, 0.68);
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.button-book, .button-inq {
+    height: 80px;
+    width: 160px;
+    font-family: Poppins;
+    font-size: 24px;
+    cursor: pointer;
+    border: solid #fff;
+}
+
+.button-book:hover, .button-inq:hover {
+    box-shadow: 0 0 5px white,
+    0 0 25px white, 0 0 50px white,
+    0 0 50px white, 0 0 50px white;
+}
+
+/*events Engagement*/
+
+h1, h2 {
+    font-size: 70px;
+    justify-self: center;
+    text-align: center;
+}
+
+
+.event-hr {
+    border: 3px solid #E8AA42;
+    width: 100px;
+    margin-top: -50px;
+}
+
+.events-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.event-img-container {
+    
+    width: 350px;
+    height: 400px;
+    background-color: gainsboro;
+}
+
+#wedding, #anniv, #concerto, #marching {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-bottom: 30px;
+    font-size: 24px;
+}
+
+#wedding {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.70) 0%, rgba(0, 0, 0, 0.00) 100%), url(/images/Wedding\ -\ Kath.jpg);
+    background-size: cover;
+}
+
+#anniv {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.70) 0%, rgba(0, 0, 0, 0.00) 100%), url(/images/Anniversary.jpg);
+    background-size: cover;
+}
+
+#concerto {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.70) 0%, rgba(0, 0, 0, 0.00) 100%), url(/images/Concerto.jpg);
+    background-size: cover;
+}
+
+#marching {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.70) 0%, rgba(0, 0, 0, 0.00) 100%), url(/images/marching_band.png);
+    background-size: cover;
+}
+
+.hr-about, .hr-recent {
+    border:1px solid #fff;
+    opacity: 0.2;
+    width: 90%;
+    margin-top: 50px;
+}
+
+.aboutMe-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap-reverse;
+    margin-top: 50px;
+}
+
+.aboutMe-container-content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.about-image {
+    width: 435px;
+    height: 499px;
+}
+
+.about-paragraph {
+    font-size: 21px;
+}
+
+.about-experience {
+    font-size: 45px;
+}
+
+.about-hr-content {
+    width: 100%;
+    margin-top: -30px;
+}
+
+#button-about {
+    background-color: #E8AA42; 
+    color: #080808;
+    border: solid #E8AA42;
+}
+
+#button-about:hover {
+    box-shadow: 0 0 5px #E8AA42,
+    0 0 25px #E8AA42, 0 0 50px #E8AA42,
+    0 0 50px #E8AA42, 0 0 50px #E8AA42;
+}
+
+.recent-performance-container {
+    width: 100%;
+    display: flex;
+     justify-content: center;
+}
+
+.performance-video {
+    width: 800px;
+    cursor: pointer;
+    margin-top: -20px;
+}
+
+.inq-container {
+    display: flex;
+    gap: 30px;
+    width: 100%;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+
+.inq-content-container {
+    display: flex;
+    width: 90%;
+    background: #211E1E;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    overflow: auto;
+}
+
+.inq-context {
+    color: #F8F1F1;
+    font-family: Lora;
+    font-size: 40px;
+}
+
+.inq-content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.inq-img {
+    width: 340px;
+    height: 400px;
+}
+
+.genre {
+    font-size: 30px;
+    color: #E8AA42;
+    margin-top: -40px;
+
+}
+
+footer {
+    background-color: #fff;
+    width: 96.1%;
+    padding: 30px;
+    position:sticky;
+    margin-top: 50px;
+    color: #080808;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: -10px;
+    font-size: 24px;
+    gap: 80px;
+    
+}
+
+.emailContact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:100px;
+    flex-wrap: wrap;
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+
+.email, .contact, .facebook, .tiktok, .instagram {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.email:hover, .contact:hover, .facebook:hover, .tiktok:hover, .instagram:hover {
+color: #E8AA42;
+}
+
+.icons {
+    width: 50px;
+}
+
+.contact-call {
+    text-align: center;
+}
+
+@media (max-width: 900px)  
+{
+
+    ul{
+        flex-wrap: wrap;
+    }
+
+    li {
+        font-size: 16px;
+    }
+
+    .logo {
+        font-size: 18px;
+        padding-left: 0px;
+    }
+
+    .hero-content {
+        padding-left: 100px;
+    }
+
+    .performance-video {
+        width: 800px;
+    }
+
+    .email-name, .contact-number, .facebook-name, .tiktok-name, .instagram-name {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .hero-content {
+        padding-left: 20px;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    ul{
+        flex-wrap: wrap;
+    }
+
+    .navigation {
+        gap: 40px;
+        
+    }
+
+    li {
+        font-size: 16px;
+    }
+
+.event-hr {
+    margin-top: 24px;
+}
+
+    .performance-video {
+        width: 300px;
+    }
+
+    h1, h2 {
+        font-size: 40px;
+        justify-self: center;
+        text-align: center;
+    }
+
+    .email-name, .contact-number, .facebook-name, .tiktok-name, .instagram-name {
+        font-size: 12px;
+    }
+  
+}
+
+@media (max-width: 400px) { 
+    ul {
+        gap: 12px;
+        margin-left: -10px;
+    }
+
+    li {
+        font-size: 8px;
+    }
+
+    .inq-context {
+        font-size: 20px;
+    }
+}
+
+
